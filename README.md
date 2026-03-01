@@ -1,1 +1,12 @@
 # CS300DSAProject
+What was the problem you were solving in the projects for this course?
+  In this course, I was solving the problem of how to efficiently store, organize, and retrieve course information for ABC University’s Computer Science department. Advisors needed a system that could quickly load course data from a file, display a sorted list of courses, and retrieve detailed information about a specific course and its prerequisites.
+The core challenge was determining which data structure (vector, hash table, or binary search tree) would best support fast searching, sorting, and scalability as the dataset grows.
+How did you approach the problem? Consider why data structures are important to understand.
+  I approached the problem by first analyzing the runtime efficiency of different data structures, Vector – Simple to implement, but searching is O(n), Hash Table – Fast average-case lookup at O(1), but unordered, Binary Search Tree (BST) – Efficient lookup and natural sorted traversal at O(log n) average case. Understanding data structures was critical because the entire performance of the system depends on how data is stored. For example: If advisors frequently search by course ID → hash table is optimal. If advisors need sorted output → BST provides in-order traversal. If the dataset is small and simple → vector may be sufficient. This project reinforced that choosing the correct data structure is not just about making the program work—it directly impacts efficiency, scalability, and usability.
+How did you overcome any roadblocks you encountered while going through the activities or project? 
+  I overcame some of the roadblocks by breaking the program into smaller functions such as load, insert, search, print. Testing incrementally instead of writing everything at once. Reviewing runtime complexity to ensure logic and debugging with sample datasets and printing intermediate outputs.
+How has your work on this project expanded your approach to designing software and developing programs?
+  My work on this project has expanded my approach to designing software and developing programs because now I can take into account which algorithm would be best for that situation and could handle that scenario the best while being efficient. 
+How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+  This project has improved my ability to write more modular code, use clear function names and structured flow, avoid hard-coded values and handle edge cases and input validation.
